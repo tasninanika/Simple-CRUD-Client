@@ -6,8 +6,9 @@ function App() {
     const form = e.target;
     const name = form.name.value;
     const email = form.email.value;
+    const user = { name, email };
 
-    console.log(name, email);
+    console.log(user);
   };
 
   return (
